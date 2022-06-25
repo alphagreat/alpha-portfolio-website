@@ -1,0 +1,22 @@
+.Main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Main-nav .logo {
+    display: flex;
+}
+
+.Main-nav li {
+    list-style-type: none;
+    margin: 3%;
+    width: 10rem;
+    cursor: pointer;
+}
+
+.Main-nav .Nav-items {
+    display: flex;
+    align-items: center;
+}
+
