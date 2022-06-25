@@ -1,0 +1,97 @@
+.Homepage-component {
+    display: flex;
+    flex-direction: column;
+}
+
+.Homepage-component .wrapper{
+    height: 50em;
+    background: no-repeat center url('../../public/home.png');
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.Homepage-component .Welcome-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.Homepage-component .Welcome-rectangle {
+    height: 0.5em;
+    width: 5em;
+    background-color: #fff;
+    margin-top: 2%;
+}
+
+.Homepage-component .Welcome-text {
+    width: 50vw;
+    line-height: 1.5em;
+}
+
+.Homepage-component p {
+    text-align: justify;
+}
+
+.Homepage-component .welcome,
+.Homepage-component .Alpha-great,
+.Homepage-component .rectangle,
+.Homepage-component .Welcome-text,
+.Homepage-component .Welcome-rectangle,
+.Homepage-component .screws  {
+    margin-left: 10%;
+}
+
+.Homepage-component .welcome {
+    margin-top: 10%;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.Homepage-component .alpha,
+.Homepage-component .great {
+    font-weight: 700;
+    font-size: 6em;
+
+}
+
+.Homepage-component .great {
+    color: #1310B6;
+
+}
+
+.Homepage-component .welcome ,
+.Homepage-component .alpha,
+.Homepage-component .Welcome-text{
+    color: #fff;
+
+}
+.Homepage-component .Operations-btn {
+    width: 18em;
+    height: 6em;
+    margin-top: 3%;
+    align-self: end;
+    cursor: pointer;
+}
+
+.Homepage-component .Pres-speech {
+    width: 80vw;
+    align-self: center;
+    margin-top: 3%;
+    line-height: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.Homepage-component .Speech-by {
+    align-self: flex-end;
+}
+
+.Homepage-component .Speaker-rectangle {
+    height: 0.8em;
+    width: 5em;
+    background-color: #1310B6;
+    margin-top: 5%;
+}
+
+.Homepage-component .screws {
+    width: 20%;
+}
