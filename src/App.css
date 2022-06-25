@@ -1,4 +1,4 @@
-.App {
+.App-header, .App-intro {
   text-align: center;
 }
 
@@ -21,4 +21,11 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+/* actual styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
