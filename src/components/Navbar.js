@@ -3,11 +3,11 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="main-nav">
+    <nav className="Main-nav">
       <ul className="logo">
         <li>alphaGreat</li>
       </ul>
-      <ul className="nav-items">
+      <ul className="Nav-items">
         <li>Operations</li>
         <li>About Us</li>
         <li>Contact Us</li>

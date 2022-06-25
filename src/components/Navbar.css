@@ -1,21 +1,21 @@
-.main-nav {
+.Main-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.main-nav .logo {
+.Main-nav .logo {
     display: flex;
 }
 
-.main-nav li {
+.Main-nav li {
     list-style-type: none;
     margin: 3%;
     width: 10rem;
     cursor: pointer;
 }
 
-.main-nav .nav-items {
+.Main-nav .Nav-items {
     display: flex;
     align-items: center;
 }
