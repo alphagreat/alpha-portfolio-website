@@ -1,0 +1,56 @@
+.Core-value-down {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 180px;
+    left: -24px;
+}
+
+.Core-value-down .circle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    border: 1px solid var(--crimson);
+    z-index: 1;
+    position: relative;
+}
+
+.Core-value-down .Down-curve {
+    width: 10em;
+    height: 5em;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border: 25px solid #F8FD01;;
+    border-top: 0;
+    position: relative;
+    top: -53px;
+}
+
+.Core-value-down .dash{
+    height: 5em;
+    width: 0.1em;
+    border: 1px dashed var(--crimson);
+    position: relative;
+    top: -54px;
+
+} 
+
+.Core-value-down .brief{
+    width: 10em;
+    text-align: center;
+    margin-top: 1%;
+    position: relative;
+    top: -50px;
+}
+
+.Core-value-down .value {
+    color: var(--crimson);
+    position: relative;
+    top: -55px;
+}
