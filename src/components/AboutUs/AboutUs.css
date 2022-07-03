@@ -1,0 +1,146 @@
+.About-Us-Component {
+    margin: 10%;
+}
+
+.About-Us-Component .Vision-img {
+    height: 46em;
+    margin-right: 2%;
+}
+
+.About-Us-Component .vision {
+    display: flex;
+}
+
+/* .About-Us-Component .Vision-text{
+    width: 30%;
+} */
+
+.About-Us-Component .Vision-text, 
+.About-Us-Component .mission p{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.About-Us-Component .mission {
+    width: 50%;
+}
+
+.About-Us-Component .Vision-text p, 
+.About-Us-Component .mission p{
+    line-height: 1.5em;
+}
+
+.About-Us-Component h2 {
+    font-size: 6em;
+}
+
+.About-Us-Component .circle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    border: 1px solid #990000;
+    z-index: 1;
+
+}
+.About-Us-Component .Integrity-circle {
+    position: relative;
+    left: 24px;
+    top: -55px;
+}
+
+.About-Us-Component .Up-curve {
+    width: 10em;
+    height: 5em;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border: 25px solid #F8FD01;;
+    border-bottom: 0;
+    position: relative;
+}
+
+.About-Us-Component .Down-curve {
+    width: 10em;
+    height: 5em;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border: 25px solid #F8FD01;
+    border-top: 0;
+    position: relative;
+
+}
+
+.About-Us-Component .Character-circle {
+    position: relative;
+    top: 20px;
+    left: -1px;
+}
+
+.About-Us-Component .Core-values {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid blue; */
+}
+
+.About-Us-Component .values {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid yellow; */
+   
+}
+
+
+.About-Us-Component .Character-down-curve {
+    left: -25px;
+    top: -35px;
+}
+
+.About-Us-Component .Partnership-up-curve {
+    left: -50px;
+}
+
+
+.About-Us-Component .Partnership-circle {
+    position: relative;
+    left: -26px;
+    top: -55px;
+}
+
+.About-Us-Component .Deliver-down-curve {
+    left: -75px;
+    top: -32px;
+}
+
+.About-Us-Component .Deliver-circle {
+    position: relative;
+    left: -51px;
+    top: 23px;
+}
+
+.About-Us-Component .Accountability-circle {
+    position: relative;
+    left: -76px;
+    top: -55px;
+}
+
+.About-Us-Component .Accountability-up-curve {
+    left: -100px;
+}
+
+.About-Us-Component .Social-down-curve {
+    left: -125px;
+    top: -32px;
+}
+
+.About-Us-Component .Social-circle {
+    position: relative;
+    left: -101px;
+    top: 24px;
+}

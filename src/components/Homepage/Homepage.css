@@ -5,7 +5,7 @@
 
 .Homepage-component .wrapper{
     height: 50em;
-    background: no-repeat center url('../../public/home.png');
+    background: no-repeat center url('../../../public/home.png');
     background-size: cover;
     opacity: 0.9;
 }

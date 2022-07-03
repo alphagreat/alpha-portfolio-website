@@ -1,12 +1,12 @@
 import React from "react";
 import "./Homepage.css";
-import screws from "../../public/screws.png";
+import screws from "../../../public/screws.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 function HomePage() {
   return (
     <div className="Homepage-component">
-      <div className="wrapper">
+      <section className="wrapper">
         <p className="welcome">Welcome to</p>
         <p className="Alpha-great">
           <span className="alpha">alpha</span>{" "}
@@ -31,7 +31,7 @@ function HomePage() {
             Operations <AiOutlineArrowRight />
           </button>
         </div>
-      </div>
+      </section>
       <article className="Pres-speech">
         <p>
           The basic purpose behind STEM education is really solving problems,

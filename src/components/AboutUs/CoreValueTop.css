@@ -1,0 +1,47 @@
+.Core-value-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Core-value-top .circle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    border: 1px solid var(--crimson);
+    z-index: 1;
+    position: relative;
+    top: -53px;
+}
+
+.Core-value-top .Up-curve {
+    width: 10em;
+    height: 5em;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border: 25px solid #F8FD01;;
+    border-bottom: 0;
+    position: relative;
+}
+
+.Core-value-top .dash{
+    height: 5em;
+    width: 0.1em;
+    border: 1px dashed var(--crimson);
+
+} 
+
+.Core-value-top .brief{
+    width: 10em;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.Core-value-top .value {
+    color: var(--crimson);
+}
