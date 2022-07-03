@@ -1,0 +1,62 @@
+.Footer-component {
+    background-color: var(--crimson);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15em;
+    padding: 2em;
+}
+
+.Footer-component .Footer-logo {
+    display: flex;
+}
+
+.Footer-component .Footer-nav, 
+.Footer-component .Logo-and-nav {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.Footer-component .Footer-logo{
+    margin-right: 3%;
+}
+
+.Footer-component .line {
+    height: 5em;
+    border: 1px solid #fff;
+    margin-right: 3%;
+}
+
+.Footer-component .footer-nav-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Footer-component .footer-nav-items li {
+    list-style-type: none;
+    margin-right: 3%;
+    font-weight: bold;
+}
+
+.Footer-component .footer-nav-items ul {
+    display: flex;
+}
+
+.Footer-component .copyright {
+    margin-top: 5%;
+}
+
+.Footer-component .Alpha-bold {
+    font-weight: bold;
+}
+
+.Footer-component .Contact-details {
+    width: 35%;
+}
+
+.Footer-component .s-img {
+    margin-right: 2%;
+}

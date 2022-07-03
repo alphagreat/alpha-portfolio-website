@@ -3,7 +3,7 @@ import "./CoreValueDown.css";
 
 function CoreValueDown(props) {
   return (
-    <div className="Core-value-down">
+    <div className="Core-value-down" style={props.style}>
       <p className="circle">{props.letter}</p>
       <p className="Down-curve"></p>
       <div className="dash"></div>

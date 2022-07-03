@@ -3,7 +3,7 @@ import "./CoreValueTop.css";
 
 function CoreValueTop(props) {
   return (
-    <div className="Core-value-top">
+    <div className="Core-value-top" style={props.style}>
       <h3 className="value">{props.title}</h3>
       <p className="brief">{props.brief}</p>
       <div className="dash"></div>
