@@ -1,0 +1,53 @@
+.About-Us-Component .vision, .About-Us-Component .mission {
+    margin-left: 10%;
+}
+
+.About-Us-Component .our {
+    display: block;
+}
+
+.About-Us-Component .Vision-img {
+    height: 35em;
+    margin-right: 2%;
+}
+
+.About-Us-Component .vision {
+    display: flex;
+}
+
+.About-Us-Component .Vision-text, 
+.About-Us-Component .mission p{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.About-Us-Component .mission {
+    width: 50%;
+}
+
+.About-Us-Component .Vision-text  {
+    width: 50%;
+}
+
+.About-Us-Component .Vision-text p, 
+.About-Us-Component .mission p{
+    line-height: 1.5em;
+}
+
+.About-Us-Component .Core-values {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.About-Us-Component .values {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+
