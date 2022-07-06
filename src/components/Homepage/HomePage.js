@@ -5,33 +5,38 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 function HomePage() {
   return (
-    <div className="Homepage-component">
-      <section className="wrapper">
-        <p className="welcome">Welcome to</p>
-        <p className="Alpha-great">
-          <span className="alpha">alpha</span>{" "}
-          <span className="great">Great</span>
-        </p>
-        <div className="Welcome-rectangle"></div>
-        <div className="Welcome-text">
-          <p>
-            Alpha is a company dedicated to advancing the world of Science,
-            Technology, Engineering and Mathematics (STEM). We achieve this goal
-            by one – inspiring students to practice STEM knowledge and build
-            solutions, two – build first-class web, mobile and cloud
-            applications for start-ups and enterprises. We help organizations
-            across the private, public, and social sectors create the change
-            that matter most to them. From the C-Suite to the front line we
-            partner with clients to transform their organisations, embed
-            technology into everything they do, and build enduring capabilities.
-            We are a community of students, STEM field professionals, committed
-            to transforming lives and shaping a better technological world.
+    <section className="Homepage-component">
+      <div className="wrapper">
+        <div className="gradient">
+          <p className="welcome">Welcome to</p>
+          <p className="Alpha-great">
+            <span className="alpha">alpha</span>{" "}
+            <span className="great">Great</span>
           </p>
-          <button className="Operations-btn" role="button">
-            Operations <AiOutlineArrowRight />
-          </button>
+          <div className="Welcome-group">
+            <div className="Welcome-rectangle"></div>
+            <div className="Welcome-text">
+              <p>
+                Alpha is a company dedicated to advancing the world of Science,
+                Technology, Engineering and Mathematics (STEM). We achieve this
+                goal by one – inspiring students to practice STEM knowledge and
+                build solutions, two – build first-class web, mobile and cloud
+                applications for start-ups and enterprises. We help
+                organizations across the private, public, and social sectors
+                create the change that matter most to them. From the C-Suite to
+                the front line we partner with clients to transform their
+                organisations, embed technology into everything they do, and
+                build enduring capabilities. We are a community of students,
+                STEM field professionals, committed to transforming lives and
+                shaping a better technological world.
+              </p>
+              <button className="Operations-btn" role="button">
+                Operations <AiOutlineArrowRight />
+              </button>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
       <article className="Pres-speech">
         <p>
           The basic purpose behind STEM education is really solving problems,
@@ -46,13 +51,13 @@ function HomePage() {
           create a better world for us all. YES, WE CAN!
         </p>
         <div className="Speech-by">
-          <div className="Speaker-rectangle"></div>
+          <div className="Home-rectangle"></div>
           <p>Emmanuel Donkor</p>
           <p>Founder and President, Alpha Great</p>
         </div>
       </article>
       <img src={screws} className="screws" alt="screws" />
-    </div>
+    </section>
   );
 }
 

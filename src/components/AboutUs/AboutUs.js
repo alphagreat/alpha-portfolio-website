@@ -19,7 +19,7 @@ function AboutUs() {
       <section className="vision">
         <img src={img} alt="up arrow" className="Vision-img" />
         <div className="Vision-text">
-          <h2>Our Vision</h2>
+          <h2><span className="our">Our</span> Vision</h2>
           <p>
             To be a centre of excellence in impacting STEM knowledge, skill and
             innovations among students. To build a great organization that
@@ -29,7 +29,7 @@ function AboutUs() {
         </div>
       </section>
       <section className="mission">
-        <h2>Our Mission</h2>
+        <h2><span className="our">Our</span> Mission</h2>
         <p>
           We believe that we are on this earth to improve and make life better.
           Our goal is to empower students to apply knowledge acquired in

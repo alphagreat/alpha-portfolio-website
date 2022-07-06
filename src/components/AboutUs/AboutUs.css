@@ -1,10 +1,13 @@
-.About-Us-Component {
+.About-Us-Component .vision, .About-Us-Component .mission {
     margin-left: 10%;
-    border: 1px solid green;
+}
+
+.About-Us-Component .our {
+    display: block;
 }
 
 .About-Us-Component .Vision-img {
-    height: 46em;
+    height: 35em;
     margin-right: 2%;
 }
 
@@ -23,20 +26,19 @@
     width: 50%;
 }
 
+.About-Us-Component .Vision-text  {
+    width: 50%;
+}
+
 .About-Us-Component .Vision-text p, 
 .About-Us-Component .mission p{
     line-height: 1.5em;
-}
-
-.About-Us-Component h2 {
-    font-size: 6em;
 }
 
 .About-Us-Component .Core-values {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid blue;
 }
 
 .About-Us-Component .values {

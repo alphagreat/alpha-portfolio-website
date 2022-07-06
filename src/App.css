@@ -8,3 +8,8 @@
 :root {
   --crimson: #990000;
 }
+
+h2 {
+  color: var(--crimson);
+  font-size: 4em;
+}

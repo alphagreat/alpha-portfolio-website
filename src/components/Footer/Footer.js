@@ -44,11 +44,13 @@ function Footer(props) {
             <img src={lin} className="s-img" alt="linkedin logo" />
           </a>
         </div>
-        <p>Alpha Great</p>
-        <p>Spintex. Rd, Shell bus stop</p>
-        <p>P. O. Box TN 1717</p>
-        <p>Tel: +233 (0)559120555/ 247736843 / 246076373</p>
-        <p>alphagreatgroup@gmail.com</p>
+        <div className="Contact-info">
+          <p>Alpha Great</p>
+          <p>Spintex. Rd, Shell bus stop</p>
+          <p>P. O. Box TN 1717</p>
+          <p>Tel: +233 (0)559120555/ 247736843 / 246076373</p>
+          <p>alphagreatgroup@gmail.com</p>
+        </div>
       </div>
     </footer>
   );

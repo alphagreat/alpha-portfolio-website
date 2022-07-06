@@ -6,6 +6,7 @@
     align-items: center;
     height: 15em;
     padding: 2em;
+    margin-top: 11%;
 }
 
 .Footer-component .Footer-logo {
@@ -59,4 +60,8 @@
 
 .Footer-component .s-img {
     margin-right: 2%;
+}
+
+.Footer-component .Contact-info {
+    margin-top: 2%;
 }
