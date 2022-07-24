@@ -13,8 +13,8 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 6em;
-    width: 6em;
+    height: 5em;
+    width: 5em;
     border-radius: 50%;
     border: 1px solid var(--crimson);
     z-index: 1;
@@ -24,7 +24,7 @@
 }
 
 .Core-value-down .Down-curve {
-    width: 10em;
+    width: 8em;
     height: 5em;
     border-bottom-left-radius: 110px;
     border-bottom-right-radius: 110px;

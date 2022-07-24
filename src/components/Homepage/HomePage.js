@@ -1,13 +1,16 @@
 import React from "react";
 import "./Homepage.css";
-import screws from "../../../public/screws.png";
+// import screws from "../../../public/screws.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
 
 function HomePage() {
   return (
     <section className="Homepage-component">
       <div className="wrapper">
-        <div className="gradient">
+        <Navbar />
+        {/* <div className="gradient"> */}
           <p className="welcome">Welcome to</p>
           <p className="Alpha-great">
             <span className="alpha">alpha</span>{" "}
@@ -35,7 +38,7 @@ function HomePage() {
               </button>
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </div>
       <article className="Pres-speech">
         <p>
@@ -56,7 +59,8 @@ function HomePage() {
           <p>Founder and President, Alpha Great</p>
         </div>
       </article>
-      <img src={screws} className="screws" alt="screws" />
+      {/* <img src={screws} className="screws" alt="screws" /> */}
+      <Footer />
     </section>
   );
 }

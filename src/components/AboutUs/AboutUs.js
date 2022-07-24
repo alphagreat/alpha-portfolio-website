@@ -5,6 +5,9 @@ import "./AboutUs.css";
 import CoreValueDown from "./CoreValue/CoreValueDown";
 import CoreValueTop from "./CoreValue/CoreValueTop";
 
+import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
+
 function AboutUs() {
   const characterStyle = { left: "-21px", top: "158px" };
   const partnershipStyle = { position: "relative", left: "-45px" };
@@ -15,6 +18,7 @@ function AboutUs() {
 
   return (
     <div className="About-Us-Component">
+      <Navbar />
       <section className="vision">
         <img src={img} alt="up arrow" className="Vision-img" />
         <div className="Vision-text">
@@ -90,6 +94,7 @@ function AboutUs() {
           />
         </div>
       </section>
+      <Footer />
     </div>
   );
 }
