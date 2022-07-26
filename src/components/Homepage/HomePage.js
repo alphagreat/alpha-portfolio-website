@@ -11,33 +11,33 @@ function HomePage() {
       <div className="wrapper">
         <Navbar />
         {/* <div className="gradient"> */}
-          <p className="welcome">Welcome to</p>
-          <p className="Alpha-great">
-            <span className="alpha">alpha</span>{" "}
-            <span className="great">Great</span>
-          </p>
-          <div className="Welcome-group">
-            <div className="Welcome-rectangle"></div>
-            <div className="Welcome-text">
-              <p>
-                Alpha is a company dedicated to advancing the world of Science,
-                Technology, Engineering and Mathematics (STEM). We achieve this
-                goal by one – inspiring students to practice STEM knowledge and
-                build solutions, two – build first-class web, mobile and cloud
-                applications for start-ups and enterprises. We help
-                organizations across the private, public, and social sectors
-                create the change that matter most to them. From the C-Suite to
-                the front line we partner with clients to transform their
-                organisations, embed technology into everything they do, and
-                build enduring capabilities. We are a community of students,
-                STEM field professionals, committed to transforming lives and
-                shaping a better technological world.
-              </p>
-              <button className="Operations-btn" role="button">
-                Operations <AiOutlineArrowRight />
-              </button>
-            </div>
+        <p className="welcome">Welcome to</p>
+        <p className="Alpha-great">
+          <span className="alpha">alpha</span>{" "}
+          <span className="great">Great</span>
+        </p>
+        <div className="Welcome-group">
+          <div className="Welcome-rectangle"></div>
+          <div className="Welcome-text">
+            <p>
+              Alpha is a company dedicated to advancing the world of Science,
+              Technology, Engineering and Mathematics (STEM). We achieve this
+              goal by one – inspiring students to practice STEM knowledge and
+              build solutions, two – build first-class web, mobile and cloud
+              applications for start-ups and enterprises. We help organizations
+              across the private, public, and social sectors create the change
+              that matter most to them. From the C-Suite to the front line we
+              partner with clients to transform their organisations, embed
+              technology into everything they do, and build enduring
+              capabilities. We are a community of students, STEM field
+              professionals, committed to transforming lives and shaping a
+              better technological world.
+            </p>
+            <button className="Operations-btn" role="button">
+              Operations <AiOutlineArrowRight />
+            </button>
           </div>
+        </div>
         {/* </div> */}
       </div>
       <article className="Pres-speech">
