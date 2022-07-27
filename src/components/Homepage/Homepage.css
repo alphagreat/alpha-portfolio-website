@@ -9,12 +9,13 @@
 }
 
 .Homepage-component .wrapper{
+    padding: 0 10%;
     height: 50em;
     /* background: no-repeat center url('../../../public/home.png'); */
     background-size: cover;
     /* opacity: 0.5; */
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
     background-color: var(--crimson);
 }
 .Homepage-component .gradient {
@@ -51,11 +52,9 @@
 
 .Homepage-component .welcome,
 .Homepage-component .Alpha-great,
-.Homepage-component .rectangle,
-.Homepage-component .Welcome-text,
 .Homepage-component .Welcome-rectangle,
 .Homepage-component .screws  {
-    margin-left: 10%;
+    margin: 0 5%;
 }
 
 .Homepage-component .welcome {

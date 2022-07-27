@@ -17,20 +17,23 @@ function AboutUs() {
   const integrityStyle = { marginLeft: "10%" };
 
   return (
+    <div>
     <div className="About-Us-Component">
-      <Navbar />
-      <section className="vision">
-        <img src={img} alt="up arrow" className="Vision-img" />
-        <div className="Vision-text">
-          <h2>
-            <span className="our">Our</span> Vision
-          </h2>
-          <p>
-            To be a centre of excellence in impacting STEM knowledge, skill and
-            innovations among students. To build a great organization that
-            attracts, develops, excites and retains exceptional STEM field
-            professionals and thought leaders with high ethical standards.{" "}
-          </p>
+      <section>
+        <Navbar />
+        <div className="vision">
+          <img src={img} alt="up arrow" className="Vision-img" />
+          <div className="Vision-text">
+            <h2>
+              <span className="our">Our</span> Vision
+            </h2>
+            <p>
+              To be a centre of excellence in impacting STEM knowledge, skill
+              and innovations among students. To build a great organization that
+              attracts, develops, excites and retains exceptional STEM field
+              professionals and thought leaders with high ethical standards.{" "}
+            </p>
+          </div>
         </div>
       </section>
       <section className="mission">
@@ -94,6 +97,7 @@ function AboutUs() {
           />
         </div>
       </section>
+    </div>
       <Footer />
     </div>
   );

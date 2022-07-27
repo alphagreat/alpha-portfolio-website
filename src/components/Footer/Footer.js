@@ -12,7 +12,7 @@ function Footer(props) {
       <div className="Logo-and-nav">
         <div className="Footer-logo">
           <p>
-            <spana className="Alpha-bold">alpha</spana>Great
+            <span className="Alpha-bold">alpha</span>Great
           </p>
         </div>
         <div className="line"></div>
