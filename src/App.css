@@ -13,3 +13,11 @@ h2 {
   color: var(--crimson);
   font-size: 4em;
 }
+
+p {
+  font-size: 1.2em;
+}
+
+.mt {
+  margin-top: 5%;
+}
