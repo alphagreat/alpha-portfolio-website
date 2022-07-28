@@ -7,15 +7,19 @@
 }
 
 .About-Us-Component .Vision-img {
-    height: 25em;
-    margin-right: 2%;
+    height: 35em;
+    margin-right: 8%;
 }
 
 .About-Us-Component .vision {
     display: flex;
 }
 
-.About-Us-Component .Vision-text, 
+.About-Us-Component .Vision-text {
+    width: 55%;
+    text-align: justify;
+} 
+
 .About-Us-Component .mission p{
     display: flex;
     flex-direction: column;
@@ -23,12 +27,9 @@
 }
 
 .About-Us-Component .mission {
-    width: 50%;
+    width: 55%;
 }
 
-.About-Us-Component .Vision-text  {
-    width: 50%;
-}
 
 .About-Us-Component .Vision-text p, 
 .About-Us-Component .mission p{
@@ -47,7 +48,3 @@
     justify-content: center;
     align-items: center; 
 }
-
-
-
-

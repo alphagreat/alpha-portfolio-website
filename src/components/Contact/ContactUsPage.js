@@ -11,7 +11,7 @@ function ContactUsPage() {
       <section className="Contact-Us-Page">
         <Navbar />
         <div className="intro">
-          <img src={phone} className="phone" alt="phone"/>
+          <img src={phone} className="phone" alt="phone" />
           <p className="Intro-text">
             Our work transforms the lives of our students as they develop into
             more effective, values-driven STEM innovators Guided by educators
@@ -25,6 +25,13 @@ function ContactUsPage() {
         <p>
           <strong>Alpha Great Spintex. Rd, Shell bus stop</strong>
         </p>
+        <h2>Let’s start a Conversation</h2>
+        <form>
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Email"/>
+          <input type="text" placeholder="Message"/>
+          <button role="button">Send</button>
+        </form>
       </section>
       <Footer />
     </div>
