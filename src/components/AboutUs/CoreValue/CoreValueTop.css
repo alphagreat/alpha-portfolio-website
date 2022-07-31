@@ -16,7 +16,7 @@
     border: 1px solid var(--crimson);
     z-index: 1;
     position: relative;
-    top: -53px;
+    top: -85px;
     font-weight: bolder;
     font-size: 1.2em;
 }
@@ -46,4 +46,8 @@
 
 .Core-value-top .value {
     color: var(--crimson);
+}
+
+.Core-value-top h3 {
+    text-align: center;
 }

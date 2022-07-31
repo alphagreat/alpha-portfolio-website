@@ -1,5 +1,5 @@
 .About-Us-Component {
-    margin: 0 10%;
+    /* margin: 0 10%; */
 }
 
 .About-Us-Component .our {
@@ -8,11 +8,11 @@
 
 .About-Us-Component .Vision-img {
     height: 35em;
-    margin-right: 8%;
+    /* margin-right: 8%; */
 }
 
-.About-Us-Component .vision {
-    display: flex;
+.About-Us-Component .vision p {
+    text-align: justify;
 }
 
 .About-Us-Component .Vision-text {
@@ -40,6 +40,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 25%;
 }
 
 .About-Us-Component .values {

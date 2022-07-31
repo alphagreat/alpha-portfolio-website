@@ -1,12 +1,13 @@
 .Footer-component {
     background-color: var(--crimson);
     color: #fff;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     align-items: center;
-    height: 15em;
+    /* height: 15em; */
     padding: 2em;
     margin-top: 11%;
+    width: 100%;
 }
 
 .Footer-component .Footer-logo {
@@ -47,7 +48,7 @@
 }
 
 .Footer-component .copyright {
-    margin-top: 5%;
+    /* margin-top: 5%; */
 }
 
 .Footer-component .Alpha-bold {
@@ -64,4 +65,8 @@
 
 .Footer-component .Contact-info {
     margin-top: 2%;
+}
+
+.Footer-component .Push-up {
+    margin-top: -2%;
 }
