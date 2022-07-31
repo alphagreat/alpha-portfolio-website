@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactUsPage.css";
-import phone from "../../../public/phone.png";
+import phone from "../../images/phone.png";
 
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
@@ -28,9 +28,9 @@ function ContactUsPage() {
         <h2>Let’s start a Conversation</h2>
         <form>
           <input type="text" placeholder="Name" />
-          <input type="text" placeholder="Email"/>
-          <input type="text" placeholder="Message"/>
-          <button role="button">Send</button>
+          <input type="text" placeholder="Email" />
+          <input type="text" placeholder="Message" />
+          <button>Send</button>
         </form>
       </section>
       <Footer />

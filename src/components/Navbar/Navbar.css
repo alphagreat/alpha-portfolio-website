@@ -6,6 +6,7 @@
 
 .Main-nav .logo {
     display: flex;
+    padding-left: 0;
 }
 
 .Main-nav li {
