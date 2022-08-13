@@ -6,7 +6,7 @@ import CoreValueDown from "./CoreValue/CoreValueDown";
 import CoreValueTop from "./CoreValue/CoreValueTop";
 
 import Footer from "../Footer/Footer";
-import Navbar from "../Navbar/Navbar";
+import NavbarComponent from "../Navbar/NavbarComponent";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -27,8 +27,8 @@ function AboutUs() {
   return (
     <Container fluid>
       <Container>
-        <Navbar />
-        <div className="About-Us-Component">
+        <NavbarComponent />
+        <div className="About-Us-Component mt">
           <section>
             <Row className="vision">
               <Col lg={5}>

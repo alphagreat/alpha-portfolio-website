@@ -2,23 +2,23 @@ import React from "react";
 import "./Homepage.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Footer from "../Footer/Footer";
-import Navbar from "../Navbar/Navbar";
+import NavbarComponent from "../Navbar/NavbarComponent";
 import WhyUsImg from "../../images/why-us.png";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import Carousel from "react-bootstrap/Carousel";
-
 import { Link } from "react-router-dom";
+
+import OpsCarousel from "../Carousel/OpsCarousel";
 
 function HomePage() {
   return (
     <Container fluid>
-      <section className="Homepage-component">
+      <section className="Homepage-component mt">
         <div className="wrapper">
-          <Navbar />
+          <NavbarComponent />
           <p className="welcome text-white">Welcome to</p>
           <p className="Alpha-great text-white Push-up">
             <span className="alpha text-white">alpha</span>{" "}
@@ -71,48 +71,8 @@ function HomePage() {
             For your benefit as a student, Alpha Great offers a variety of
             operations through a secure team, including:
           </p>
-          <Carousel>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="https://placekitten.com/800/400"
-                alt="First slide"
-              />
-              <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="https://placekitten.com/800/400"
-                alt="Second slide"
-              />
+          <OpsCarousel />
 
-              <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="https://placekitten.com/800/400"
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
           <Row className="mt">
             <Col>
               <div className="Home-rectangle"></div>

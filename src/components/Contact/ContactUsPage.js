@@ -3,38 +3,52 @@ import "./ContactUsPage.css";
 import phone from "../../images/phone.png";
 
 import Footer from "../Footer/Footer";
-import Navbar from "../Navbar/Navbar";
+import NavbarComponent from "../Navbar/NavbarComponent";
+
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function ContactUsPage() {
   return (
-    <div>
-      <section className="Contact-Us-Page">
-        <Navbar />
-        <div className="intro">
-          <img src={phone} className="phone" alt="phone" />
-          <p className="Intro-text">
-            Our work transforms the lives of our students as they develop into
-            more effective, values-driven STEM innovators Guided by educators
-            and supported by business leaders
+    <Container fluid>
+      <Container>
+        <NavbarComponent />
+        <section className="Contact-Us-Page">
+          <div className="wrapper mt">
+            <Row>
+              <Col>
+                <h2 style={{ color: "#fff" }}>Contact Us</h2>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <p className="Intro-text">
+                  Our work transforms the lives of our students as they develop
+                  into more effective, values-driven STEM innovators Guided by
+                  educators and supported by business leaders
+                </p>
+              </Col>
+            </Row>
+          </div>
+          <h2>Contact Details</h2>
+          <p>
+            <strong>Alpha Great</strong>
           </p>
-        </div>
-        <h2>Contact Details</h2>
-        <p>
-          <strong>Alpha Great</strong>
-        </p>
-        <p>
-          <strong>Alpha Great Spintex. Rd, Shell bus stop</strong>
-        </p>
-        <h2>Let’s start a Conversation</h2>
-        <form>
-          <input type="text" placeholder="Name" />
-          <input type="text" placeholder="Email" />
-          <input type="text" placeholder="Message" />
-          <button>Send</button>
-        </form>
-      </section>
+          <p>
+            <strong>Alpha Great Spintex. Rd, Shell bus stop</strong>
+          </p>
+          <h2>Let’s start a Conversation</h2>
+          <form>
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Email" />
+            <input type="text" placeholder="Message" />
+            <button>Send</button>
+          </form>
+        </section>
+      </Container>
       <Footer />
-    </div>
+    </Container>
   );
 }
 

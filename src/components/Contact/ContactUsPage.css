@@ -1,5 +1,6 @@
-.Contact-Us-Page {
-    margin: 0 10%;
+.Contact-Us-Page .wrapper {
+    background-image: url('../../images/phone.png');
+    padding: 15%;
 }
 
 .Contact-Us-Page .intro {
@@ -7,14 +8,15 @@
     align-items: center;
 }
 
-.Contact-Us-Page .phone {
-    height: 30em;
-    margin-right: 2%;
-}
-
 .Contact-Us-Page .Intro-text{
-    width: 40%;
+    /* width: 40%; */
     text-align: justify;
+    color: #fff;
+    background-color: rgba(153, 0, 0, 0.2);
+    padding: 5%;
+    position: relative;
+    top: 0;
+    right: 0;
 }
 
 .Contact-Us-Page form {

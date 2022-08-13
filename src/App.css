@@ -11,7 +11,8 @@
 
 h2 {
   color: var(--crimson);
-  font-size: 4em;
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 p {
@@ -19,5 +20,5 @@ p {
 }
 
 .mt {
-  margin-top: 5%;
+  margin-top: 4rem;
 }
