@@ -1,8 +1,9 @@
 .Homepage-component .wrapper{
+    background-image: url(../../images/office.png);
     background-size: cover;
     border-bottom-left-radius: 45%;
     border-bottom-right-radius: 45%;
-    background-color: var(--crimson);
+    /* background-color: var(--crimson); */
     padding-bottom: 10%;
     padding-left: 3rem;
 }

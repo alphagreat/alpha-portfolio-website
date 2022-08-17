@@ -21,3 +21,13 @@
     align-items: center;
 }
 
+.linkText, #collasible-nav-dropdown {
+    color: var(--crimson);
+}
+
+.linkText:hover, #collasible-nav-dropdown:hover {
+    color: #000000;
+
+}
+
+
