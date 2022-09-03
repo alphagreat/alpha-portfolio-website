@@ -5,6 +5,9 @@ import "./AboutUs.css";
 import CoreValueDown from "./CoreValue/CoreValueDown";
 import CoreValueTop from "./CoreValue/CoreValueTop";
 
+import CoreValueRight from "./CoreValueMobile/CoreValueRight";
+import CoreValueLeft from "./CoreValueMobile/CoreValueLeft";
+
 import Footer from "../Footer/Footer";
 import NavbarComponent from "../Navbar/NavbarComponent";
 
@@ -23,6 +26,27 @@ function AboutUs() {
   };
   const impactStyle = { position: "relative", left: "-324px", top: "260px" };
   const integrityStyle = { marginLeft: "25%" };
+
+  const integrityMobStyle = { position: "relative", left: "-70px" };
+  const characterMobStyle = { position: "relative", right: "-45px" };
+
+  const partnershipMobStyle = {
+    position: "relative",
+    left: "-70px",
+    top: "-152px",
+  };
+
+  const deliverMobStyle = {
+    position: "relative",
+    right: "-45px",
+    top: "-152px",
+  };
+
+  const impactMobStyle = {
+    position: "relative",
+    left: "-70px",
+    top: "-305px",
+  };
 
   return (
     <Container fluid>
@@ -101,6 +125,41 @@ function AboutUs() {
 
               <CoreValueDown
                 style={impactStyle}
+                letter="f"
+                title="Socail impact"
+                brief="As an organization, we are committed to positive social impact"
+              />
+            </div>
+            <div className="Core-values-mobile">
+              <CoreValueRight
+                style={integrityMobStyle}
+                className="align-start"
+                letter="a"
+                title="Integrity"
+                brief="Align your conduct with what you know to be excellent"
+              />
+              <CoreValueLeft
+                style={characterMobStyle}
+                letter="b"
+                title="Character"
+                brief="We are what we do"
+              />
+              <CoreValueRight
+                style={partnershipMobStyle}
+                letter="c"
+                title="Partnership"
+                brief="There is no greater force for change than a team of people"
+              />
+
+              <CoreValueLeft
+                style={deliverMobStyle}
+                letter="d"
+                title="Value delivered"
+                brief="As an organization, we set a high aspiration for the positive impact"
+              />
+
+              <CoreValueRight
+                style={impactMobStyle}
                 letter="f"
                 title="Socail impact"
                 brief="As an organization, we are committed to positive social impact"

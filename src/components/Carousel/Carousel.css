@@ -19,3 +19,17 @@
     text-align: right;
     display: block;
   }
+
+
+  @media screen and (max-width: 425px) {
+
+    .carousel-caption {
+      top: 15%;
+      text-align: left;
+    }
+
+    .font-weight-bold {
+      display: none;
+    }
+    
+  }

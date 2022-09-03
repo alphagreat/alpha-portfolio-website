@@ -47,10 +47,6 @@
     display: flex;
 }
 
-.Footer-component .copyright {
-    /* margin-top: 5%; */
-}
-
 .Footer-component .Alpha-bold {
     font-weight: bold;
 }
@@ -69,4 +65,32 @@
 
 .Footer-component .Push-up {
     margin-top: -2%;
+}
+
+.Footer-component .Mobile-Tel {
+    display: none;
+}
+
+@media screen and (max-width: 425px) {
+
+    .left, .right, .middle {
+        display: block;
+    }
+
+    .right {
+        margin-top: 5%;
+    }
+
+    .Footer-component .Desktop-Tel {
+        display: none;
+    }
+
+    .Footer-component .Mobile-Tel {
+        display: block;
+    }
+
+    .Footer-component .Alpha-email {
+        font-size: 0.9rem;
+    }
+    
 }

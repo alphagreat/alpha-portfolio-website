@@ -1,0 +1,49 @@
+.Core-value-Right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+.Core-value-Right .circle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    border: 1px solid var(--crimson);
+    z-index: 1;
+    position: relative;
+    top: -120px;
+    right: -20px;
+    font-weight: bolder;
+    font-size: 1.2em;
+
+}
+
+.Core-value-Right .Right-curve {
+    width: 10em;
+    height: 6em;
+    border-top-left-radius: 110px;
+    border-bottom-left-radius: 110px;
+    border: 25px solid #F8FD01;;
+    border-right: 0;
+    position: relative;
+}
+
+
+.Core-value-top .brief{
+    width: 10em;
+    text-align: center;
+    margin-top: 2%;
+    /* border: 1px solid yellow; */
+}
+
+.Core-value-top .value {
+    color: var(--crimson);
+}
+
+.Core-value-top h3 {
+    text-align: center;
+}

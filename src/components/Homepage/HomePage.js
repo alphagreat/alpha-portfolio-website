@@ -27,7 +27,7 @@ function HomePage() {
           <Row>
             <Col className="Welcome-rectangle" lg={1}></Col>
             <Col lg={8}>
-              <p className="text-white">
+              <p className="text-white Company-intro">
                 Alpha is a company dedicated to advancing the world of Science,
                 Technology, Engineering and Mathematics (STEM). We achieve this
                 goal by one – inspiring students to practice STEM knowledge and
@@ -48,7 +48,7 @@ function HomePage() {
           </Row>
         </div>
         <Container>
-          <p className="mt">
+          <p className="mt Prez-speech">
             The basic purpose behind STEM education is really solving problems,
             understanding natural phenomenon and solving them. “Factors and
             interesting statistics are, the most common background of a fortune
@@ -62,7 +62,7 @@ function HomePage() {
           </p>
           <div className="Speech-by">
             <div className="Home-rectangle"></div>
-            <p>Emmanuel Donkor</p>
+            <p>Nana Kwame Appau</p>
             <p>Founder and President, Alpha Great</p>
           </div>
           <div className="Home-rectangle"></div>
