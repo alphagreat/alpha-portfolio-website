@@ -45,5 +45,8 @@
 }
 
 .Core-value-top h3 {
-    text-align: center;
+    text-align: left;
+    margin-left: 0;
+    /* position: absolute; */
+    border: 5px solid blue;
 }

@@ -39,6 +39,10 @@
 
 }
 
+.Homepage-component .Company-intro-tab {
+    display: none;
+}
+
 .Homepage-component .Homepage-btn {
     width: 10em;
     height: 3em;
@@ -137,4 +141,76 @@
         text-align: left;
     }
     
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 424px)  {
+
+    .Homepage-component .wrapper{
+        height: 24vh;
+    }
+
+    .Homepage-component .welcome,
+    .Homepage-component .Alpha-great,
+    .Homepage-component .operations {
+        margin-left: 10%;
+    }
+
+    .Homepage-component .welcome {
+        padding-top: 10%;
+    }
+
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px){
+
+    .Homepage-component .wrapper{
+        height: 27vh;
+    }
+
+    .Homepage-component .welcome,
+    .Homepage-component .Alpha-great,
+    .Homepage-component .operations {
+        margin-left: 15%;
+    }
+
+    .Homepage-component .welcome {
+        padding-top: 12%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px)   {
+
+    .Company-intro {
+        display: none;
+    }
+
+    .Homepage-component .Company-intro-tab {
+        display: block;
+        width: 90%;
+    }
+
+    .Homepage-component .Welcome-rectangle {
+        display: none;
+    }
+
+    .Homepage-component .wrapper{
+        background-size: cover;
+    }
+
+    .Homepage-component .mt{
+        margin-top: 5%;
+    }
+
+    .Homepage-component .welcome {
+        margin-bottom: 0;
+    }
+
+    .Homepage-component .welcome,
+    .Homepage-component .Alpha-great,
+    .Homepage-component .Company-intro-tab,
+    .Homepage-component .operations {
+        margin-left: 4%;
+    }
+
 }

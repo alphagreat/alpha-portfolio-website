@@ -41,7 +41,11 @@ function HomePage() {
                 STEM field professionals, committed to transforming lives and
                 shaping a better technological world.
               </p>
-              <button className="Homepage-btn">
+              <p className="text-white Company-intro-tab">
+                Alpha is a company dedicated to advancing the world of Science,
+                Technology, Engineering and Mathematics (STEM). 
+              </p>
+              <button className="Homepage-btn operations">
                 Operations <AiOutlineArrowRight />
               </button>
             </Col>

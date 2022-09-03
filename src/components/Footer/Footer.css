@@ -71,6 +71,10 @@
     display: none;
 }
 
+.Footer-component .Desktop-Tel {
+    text-align: left;
+}
+
 @media screen and (max-width: 425px) {
 
     .left, .right, .middle {

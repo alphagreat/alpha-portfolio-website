@@ -1,77 +1,90 @@
 .About-Us-Component .our {
-    display: block;
+  display: block;
 }
 
 .About-Us-Component .Vision-img {
-    height: 35em;
-    width: 100%;
-    height: auto;
-    /* margin-right: 8%; */
+  height: 35em;
+  width: 100%;
+  height: auto;
 }
 
 .About-Us-Component .vision p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .About-Us-Component .Vision-text {
-    width: 55%;
-    text-align: justify;
-} 
+  width: 55%;
+  text-align: justify;
+}
 
-.About-Us-Component .mission p{
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
+.About-Us-Component .mission p {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
 }
 
 .About-Us-Component .mission {
-    width: 55%;
+  width: 55%;
 }
 
-
-.About-Us-Component .Vision-text p, 
-.About-Us-Component .mission p{
-    line-height: 1.5em;
+.About-Us-Component .Vision-text p,
+.About-Us-Component .mission p {
+  line-height: 1.5em;
 }
 
 .About-Us-Component .Core-values {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 25%;
 }
 
 .About-Us-Component .values {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .About-Us-Component .Core-values-mobile {
-    /* border: 1px solid salmon; */
-    height: 30rem;
+  height: 30rem;
+  display: none;
 }
 
-
 @media screen and (max-width: 425px) {
-
-    .About-Us-Component .mission {
-        width: 100%;
-    }
-
-    .About-Us-Component .Core-values {
-        display: none;
-    }
-
-    .About-Us-Component .mt {
-        margin-top: 5%;
-    }
-
-    .About-Us-Component .vision p, 
-    .About-Us-Component .Vision-text,
-    .About-Us-Component .mission p {
-        text-align: left;
-    }
-    
+  .About-Us-Component .mission {
+    width: 100%;
   }
+
+  .About-Us-Component .Core-values {
+    display: none;
+  }
+
+  .About-Us-Component .Core-values-mobile {
+    display: block;
+  }
+
+  .About-Us-Component .mt {
+    margin-top: 5%;
+  }
+
+  .About-Us-Component .vision p,
+  .About-Us-Component .Vision-text,
+  .About-Us-Component .mission p {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .About-Us-Component .Core-values {
+    display: none;
+  }
+
+  .About-Us-Component .Core-values-mobile {
+    display: block;
+  }
+
+  .About-Us-Component .mission {
+    width: 100%;
+  }
+}
