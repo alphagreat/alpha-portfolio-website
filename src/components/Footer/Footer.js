@@ -15,12 +15,12 @@ function Footer(props) {
     <Container fluid>
       <footer className="Footer-component" style={props.style}>
         <Row>
-          <Col lg={2}>
+          <Col lg={2} className="left">
             <p>
               <span className="Alpha-bold">alpha</span>Great
             </p>
           </Col>
-          <Col>
+          <Col className="middle">
             <p>
               <span>Operations</span>
               {"   "} <span>About us</span>
@@ -28,7 +28,7 @@ function Footer(props) {
             </p>
             <p>&copy; 2022 Alpha Great. All Rights Reserved</p>
           </Col>
-          <Col>
+          <Col className="right">
             <div>
               <a href="#">
                 <img src={fb} className="s-img" alt="facebook logo" />
@@ -46,10 +46,16 @@ function Footer(props) {
             <p> Alpha Great</p>
             <p className="Push-up">Spintex. Rd, Shell bus stop</p>
             <p className="Push-up">P. O. Box TN 1717</p>
-            <p className="Push-up">
+            <p className="Push-up Desktop-Tel">
               Tel: +233 (0)559120555/ 247736843 / 246076373
             </p>
-            <p className="Push-up">alphagreatgroup@gmail.com</p>
+            <div className="Mobile-Tel">
+              <p>Tel:</p>
+              <p>+233 (0)559120555</p>
+              <p>+233 (0)247736843</p>
+              <p>+233 (0)246076373</p>
+            </div>
+            <p className="Push-up Alpha-email">alphagreatgroup@gmail.com</p>
           </Col>
         </Row>
       </footer>

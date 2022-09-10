@@ -61,3 +61,28 @@
     border-bottom-left-radius: 10px;
 
 }
+
+@media screen and (max-width: 425px) {
+
+    .Contact-Us-Page form {
+        width: 100%;
+    }
+
+    .Contact-Us-Page button {
+        width: 50%;
+    }
+
+    .Contact-Us-Page .Intro-text{
+        text-align: left;
+    }
+
+    .Contact-Us-Page input {
+        border-width: 0 0 1px;
+
+    }
+
+    .Contact-Us-Page .convo {
+        font-size: 2.5rem;
+    }
+    
+  }

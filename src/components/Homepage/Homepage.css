@@ -1,9 +1,11 @@
 .Homepage-component .wrapper{
     background-image: url(../../images/office.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
     border-bottom-left-radius: 45%;
     border-bottom-right-radius: 45%;
-    /* background-color: var(--crimson); */
     padding-bottom: 10%;
     padding-left: 3rem;
 }
@@ -22,7 +24,7 @@
 
 .Homepage-component .welcome,
 .Homepage-component .Alpha-great {
-    margin: 0 0.5%;
+    margin: 0 1 0.5%;
 }
 
 .Homepage-component .welcome {
@@ -33,8 +35,12 @@
 .Homepage-component .alpha,
 .Homepage-component .great {
     font-weight: 700;
-    font-size: 6em;
+    font-size: 5rem;
 
+}
+
+.Homepage-component .Company-intro-tab {
+    display: none;
 }
 
 .Homepage-component .Homepage-btn {
@@ -68,4 +74,143 @@
 
 .Homepage-component .choose {
     display: block;
+}
+
+.Why-us-img {
+    width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 425px) {
+    .Company-intro {
+        display: none;
+    }
+
+    .Homepage-component .Speech-by{
+        margin-left: 0;        
+    }
+
+    .Homepage-component .wrapper{
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        height: 20vh;
+    }
+
+    .Homepage-component .welcome,
+    .Homepage-component .Alpha-great {
+        margin: 0;
+    }
+
+    .Homepage-component .Welcome-rectangle {
+        display: none;
+    }
+
+    .Homepage-component .alpha,
+    .Homepage-component .great {
+        font-weight: 600;
+        font-size: 2rem;
+
+    }
+
+    .Homepage-component .welcome,
+    .Homepage-component .Alpha-great {
+        margin: 0 0.2%;
+    }
+
+    .Homepage-component .welcome {
+        font-weight: 500;
+        font-size: 2rem;
+    }
+
+    .Homepage-component .great {
+        display: inline;
+    }
+
+    .Why-us-img {
+        display: block;
+    }
+
+    .Homepage-component .mt{
+        margin-top: 5%;
+    }
+
+    .Homepage-component p {
+        text-align: left;
+    }
+    
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 424px)  {
+
+    .Homepage-component .wrapper{
+        height: 24vh;
+    }
+
+    .Homepage-component .welcome,
+    .Homepage-component .Alpha-great,
+    .Homepage-component .operations {
+        margin-left: 10%;
+    }
+
+    .Homepage-component .welcome {
+        padding-top: 10%;
+    }
+
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px){
+
+    .Homepage-component .wrapper{
+        height: 27vh;
+    }
+
+    .Homepage-component .welcome,
+    .Homepage-component .Alpha-great,
+    .Homepage-component .operations {
+        margin-left: 15%;
+    }
+
+    .Homepage-component .welcome {
+        padding-top: 12%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px)   {
+
+    .Company-intro {
+        display: none;
+    }
+
+    .Homepage-component .Company-intro-tab {
+        display: block;
+        width: 90%;
+    }
+
+    .Homepage-component .Welcome-rectangle {
+        display: none;
+    }
+
+    .Homepage-component .wrapper{
+        background-size: cover;
+    }
+
+    .Homepage-component .mt{
+        margin-top: 5%;
+    }
+
+    .Homepage-component .welcome {
+        margin-bottom: 0;
+    }
+
+    .Homepage-component .welcome,
+    .Homepage-component .Alpha-great,
+    .Homepage-component .Company-intro-tab,
+    .Homepage-component .operations {
+        margin-left: 4%;
+    }
+
 }

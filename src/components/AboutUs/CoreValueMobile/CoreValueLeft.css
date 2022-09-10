@@ -1,0 +1,52 @@
+.Core-value-Left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -80%;
+}
+
+.Core-value-Left .circle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    border: 1px solid var(--crimson);
+    z-index: 1;
+    position: relative;
+    top: -120px;
+    left: -20px;
+    font-weight: bolder;
+    font-size: 1.2em;
+
+}
+
+.Core-value-Left .Left-curve {
+    width: 10em;
+    height: 6em;
+    border-top-right-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border: 25px solid #F8FD01;;
+    border-left: 0;
+    position: relative;
+}
+
+
+.Core-value-top .brief{
+    width: 10em;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.Core-value-top .value {
+    color: var(--crimson);
+}
+
+.Core-value-top h3 {
+    text-align: left;
+    margin-left: 0;
+    /* position: absolute; */
+    border: 5px solid blue;
+}

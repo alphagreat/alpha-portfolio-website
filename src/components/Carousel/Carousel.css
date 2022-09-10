@@ -1,21 +1,40 @@
 .carousel-caption {
-    top: 45%;
+  top: 45%;
+  text-align: left;
+}
+
+.Carousel-Alpha {
+  display: block;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+  width: 80%;
+}
+
+.Learn-more {
+  color: #f8fd01;
+  text-align: right;
+  display: block;
+}
+
+@media screen and (max-width: 425px) {
+  .carousel-caption {
+    top: 15%;
     text-align: left;
   }
 
-  .Carousel-Alpha {
-    display: block;
-    font-weight: 700;
-    font-size: 3rem;
-  }
-
   .font-weight-bold {
-    font-weight: bold;
-    width: 80%;
+    display: none;
   }
+}
 
-  .Learn-more {
-    color: #F8FD01;
-    text-align: right;
-    display: block;
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .carousel-caption {
+    top: 10%;
+    text-align: left;
   }
+}

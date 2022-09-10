@@ -113,7 +113,7 @@ function ContactUsPage() {
           <p>
             <strong>Alpha Great Spintex. Rd, Shell bus stop</strong>
           </p>
-          <h2>Let’s start a Conversation</h2>
+          <h2 className="convo">Let’s start a Conversation</h2>
           <form>
             <input
               type="text"
